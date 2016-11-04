@@ -51,9 +51,7 @@ namespace ConsoleApplication1
 			string readJson = JsonConvert.SerializeObject(collection, Formatting.Indented);
 
 			Console.WriteLine(readJson);
-			Console.ReadLine();
-
-			
+			Console.ReadLine();	
 		}
 	}
 }
